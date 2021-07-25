@@ -2,7 +2,7 @@
 
 nextflow.enable.dsl = 2
 
-include { CUSTOM_SCRIPT } from "./modules/custom_script.nf"
+include { CUSTOM_SCRIPT } from "./modules/custom_script/main.nf"
 
 workflow { 
 
